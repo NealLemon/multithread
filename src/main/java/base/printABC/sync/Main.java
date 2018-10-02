@@ -21,6 +21,6 @@ public class Main {
         executorService.execute(a);
         executorService.execute(b);
         executorService.execute(c);
-
+        executorService.shutdown();
     }
 }
